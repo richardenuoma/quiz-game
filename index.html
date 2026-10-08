@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Computer Quiz Challenge</h1>
+    <p class="subtitle">Watch the computer try to answer random questions</p>
+
+    <div class="card" id="quiz-card">
+      <span class="category" id="category">Click Start</span>
+      <p class="question-text" id="question">Press the button to get a random question for the computer.</p>
+      <div class="choices" id="choices"></div>
+      <p class="computer-label" id="computer-label">🤖 Computer chose:</p>
+      <div class="result" id="result"></div>
+    </div>
+
+    <button id="next-btn">Get Random Question</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
